@@ -13,18 +13,13 @@
 //Esiste un oggetto JS in grado di gestire le date?
 //Esistono dei metodi per trasformare una data in millisecondi?//
 
-let time = new Date().getTime();
+let now = new Date().getTime();
+
+let tomorrow = new Date("May 26, 2023 09:30:00").getTime();
 
 
 
-function convertMsToTime(tempo) {
-    let seconds = Math.floor(time / 1000);
-    let minutes = Math.floor(seconds / 60);
-    let hours = Math.floor(minutes / 60);
 
-    console.log(seconds)
-
-}
 
 
 
