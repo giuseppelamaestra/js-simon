@@ -13,12 +13,45 @@
 //Esiste un oggetto JS in grado di gestire le date?
 //Esistono dei metodi per trasformare una data in millisecondi?//
 
-let now = new Date().getTime();
+
 
 let tomorrow = new Date("May 26, 2023 09:30:00").getTime();
 
 
+let UptadeEverySecond = setInterval(function(){   
 
+    let now = new Date().getTime();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})
 
 
 
