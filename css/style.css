@@ -18,4 +18,16 @@ body {
 h1 {
     text-align: center;
     color: #038ea6;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+p {
+    color: #038ea6;
+    font-size: 5rem;
+}
+
+.times {
+    display: flex;
+    justify-content: space-around;
 }
