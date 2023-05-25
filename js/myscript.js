@@ -37,36 +37,12 @@ let UptadeEverySecond = setInterval(function(){
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
+
+
+    if(difference < 0){
+        clearInterval(UptadeEverySecond);
+    }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }, 1000)
