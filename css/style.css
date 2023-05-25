@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5rem;
+    background-color: #6495ed;
+}
+
+.container {
+     padding: 5rem;
+     background-color: #e6e6fa;
+
+}
+
+h1 {
+    text-align: center;
+    color: #038ea6;
+}
