@@ -22,6 +22,18 @@ let UptadeEverySecond = setInterval(function(){
 
     let now = new Date().getTime();
 
+    let difference = tomorrow - now; 
+
+   
+
+    
+    let days = Math.floor(difference / (24 * 60 * 60 * 1000));
+    let hours = Math.floor(difference % (24 * 60 * 60 * 1000) / (60 * 60 * 1000));
+    let minutes = Math.floor(difference % (60 * 60 * 1000) / (60 * 1000));
+    let seconds = Math.floor(difference % (60 * 1000) / (1000));
+
+   
+    
 
 
 
@@ -51,7 +63,9 @@ let UptadeEverySecond = setInterval(function(){
 
 
 
-})
+
+
+}, 1000)
 
 
 
